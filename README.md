@@ -7,7 +7,7 @@ A clean, zero-dependency Java CLI that translates text ↔ Morse code with auto-
 HELLO WORLD  →  .... . .-.. .-.. --- / .-- --- .-. .-.. -..
 ```
 
----
+
 
 ## Features
 
@@ -18,7 +18,7 @@ HELLO WORLD  →  .... . .-.. .-.. --- / .-- --- .-. .-.. -..
 - **Zero dependencies** — pure Java, no frameworks
 - **Unit tested** — 16 JUnit 5 tests including round-trip checks
 
----
+
 
 ##  Quick Start
 
@@ -69,7 +69,7 @@ java -jar morse.jar "... --- ..."
 echo "HELLO" | xargs java -jar morse.jar
 ```
 
----
+
 
 ##  Morse Format
 
@@ -95,7 +95,7 @@ morse-code-translator/
         └── MorseCodeTest.java
 ```
 
----
+
 
 ##  Tests
 
@@ -105,15 +105,14 @@ mvn test
 
 Covers encoding, decoding, round-trips, null/empty inputs, and auto-detection.
 
----
+
 
 ##  Supported Characters
 
 Letters `A–Z`, digits `0–9`, and punctuation:  
 `. , ? ! / @ ( ) : ; = + - _ " ' $`
 
----
 
-## 📜 License
+##  License
 
 MIT — do whatever you want.
