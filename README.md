@@ -1,4 +1,4 @@
-# 📡 Morse Code Translator
+#  Morse Code Translator
 
 A clean, zero-dependency Java CLI that translates text ↔ Morse code with auto-detection.
 
@@ -9,7 +9,7 @@ HELLO WORLD  →  .... . .-.. .-.. --- / .-- --- .-. .-.. -..
 
 ---
 
-## ✨ Features
+## Features
 
 - **Encode** — any text (letters, digits, punctuation) → Morse code
 - **Decode** — Morse code → text
@@ -20,7 +20,7 @@ HELLO WORLD  →  .... . .-.. .-.. --- / .-- --- .-. .-.. -..
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Requirements
 - Java 21+
@@ -71,7 +71,7 @@ echo "HELLO" | xargs java -jar morse.jar
 
 ---
 
-## 📐 Morse Format
+##  Morse Format
 
 | Separator | Meaning          |
 |-----------|------------------|
@@ -82,7 +82,7 @@ Example: `.... . .-.. .-.. ---` = `HELLO`
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 morse-code-translator/
@@ -97,7 +97,7 @@ morse-code-translator/
 
 ---
 
-## 🧪 Tests
+##  Tests
 
 ```bash
 mvn test
@@ -107,7 +107,7 @@ Covers encoding, decoding, round-trips, null/empty inputs, and auto-detection.
 
 ---
 
-## 📖 Supported Characters
+##  Supported Characters
 
 Letters `A–Z`, digits `0–9`, and punctuation:  
 `. , ? ! / @ ( ) : ; = + - _ " ' $`
